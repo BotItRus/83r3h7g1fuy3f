@@ -3,7 +3,6 @@ import discord
 from discord.ext import commands, tasks
 from itertools import cycle
 
-TOKEN = 'NjMwNzQzNTY2OTYwMDMzODAy.XnNrFA.L65oYPKHRMvd6iD8Zld2hTVc1j4'
 status = cycle(['.хелп', 'бодя гей', 'макс натурал'])
 
 extensions = ['cogs.commands', 'cogs.level', 'cogs.moderation',
